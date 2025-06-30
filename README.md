@@ -10,7 +10,7 @@ This is my personal project where I installed Pi-hole on a Raspberry Pi Zero 2 W
 - USB power adapter
 - Laptop (to configure Pi-hole) and it also provide internet for Raspberry pi zero 2w
 
-  ## 🛠️ Software Used
+## 🛠️ Software Used
 - Raspberry Pi OS Lite
 - Pi-hole (installed via curl script)
 - SSH (for remote setup)
@@ -26,16 +26,19 @@ curl -sSL https://install.pi-hole.net | bash
 6. Opened Pi-hole admin page at `http://<Pi-IP>/admin`
 7. Disabled Private DNS on mobile to make it work
 
-   ## 🛠️ Issues I Faced and Fixed
+## 🛠️ Issues I Faced and Fixed
 - Pi-hole showed 0 queries at first
   - ✅ Fixed by disabling Private DNS on Android
 - Couldn't resolve domains
   - ✅ Fixed by setting a temporary DNS in `/etc/resolv.conf`
  
-  - ## 🚀 Future Plans
+ ## 🚀 Future Plans
 - Add unbound for DNS encryption
 - Use battery backup for portability
 - Add more custom blocklists
+
+  ## 📸 Screenshots
+  ![Pi-hole Dashboard](Screenshot%202025-06-30%20192611.png)
 
 
 
