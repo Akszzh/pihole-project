@@ -22,7 +22,7 @@ This is my personal project where I installed Pi-hole on a Raspberry Pi Zero 2 W
 4. Installed Pi-hole:
 comment to install pi hole:
 curl -sSL https://install.pi-hole.net | bash
-5. Set a static IP to raspberrypi in my router
+5. Set a static IP to raspberrypi in my router(important step)
 6. Opened Pi-hole admin page at `http://<Pi-IP>/admin`
 7. Disabled Private DNS on mobile to make it work
 
